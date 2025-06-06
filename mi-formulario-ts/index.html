@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulario TS</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <h2>Registrar producto</h2>
+  <form id="formulario">
+    <label>Nombre:</label>
+    <input type="text" id="nombre" />
+    <div id="error-nombre" class="error"></div>
+
+    <label>Precio:</label>
+    <input type="number" id="precio" />
+    <div id="error-precio" class="error"></div>
+
+    <button type="submit">Registrar</button>
+  </form>
+
+  <h2>Productos</h2>
+  <div id="lista-productos"></div>
+  <script src="./src/main.ts"></script>
+</body>
+</html>
